@@ -1,6 +1,13 @@
 {
   "expo": {
-    "name": "redirect-example",
-    "slug": "redirect-example"
+    "name": "deep-linking-demo",
+    "slug": "deep-linking-demo",
+    "scheme": "myapp",
+    "ios": {
+      "bundleIdentifier": "com.deeplinkingdemo"
+    },
+    "android": {
+      "package": "com.deeplinkingdemo"
+    }
   }
 }
